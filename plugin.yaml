@@ -1,0 +1,11 @@
+plugin:
+    name: 'geoclecio.contato::lang.plugin.name'
+    description: 'geoclecio.contato::lang.plugin.description'
+    author: Geoclecio
+    icon: oc-icon-list-ol
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Contatos
+        url: geoclecio/contato/contato
+        icon: icon-list-ol

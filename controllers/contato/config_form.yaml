@@ -1,0 +1,11 @@
+name: Contato
+modelClass: Geoclecio\Contato\Models\Contato
+form: $/geoclecio/contato/models/contato/fields.yaml
+defaultRedirect: geoclecio/contato/contato/crete
+create:
+    redirect: 'geoclecio/contato/contato/update/:id'
+    redirectClose: geoclecio/contato/contato
+update:
+    redirect: geoclecio/contato/contato
+    redirectClose: geoclecio/contato/contato
+preview: {  }

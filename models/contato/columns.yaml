@@ -1,0 +1,19 @@
+columns:
+    nome:
+        label: Nome
+        type: text
+        searchable: true
+        sortable: true
+        width: 200px
+    email:
+        label: Email
+        type: text
+        searchable: true
+        sortable: true
+        width: 200px
+    telefone:
+        label: Telefone
+        type: number
+        searchable: true
+        sortable: true
+        width: 200px

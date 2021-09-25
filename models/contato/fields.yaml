@@ -1,0 +1,28 @@
+fields:
+    nome:
+        label: Nome
+        span: left
+        placeholder: 'Digite o seu nome completo'
+        required: 1
+        preset:
+            field: nome
+            type: slug
+        type: text
+    email:
+        label: Email
+        span: left
+        placeholder: 'Informe o seu melhor E-mail'
+        required: 1
+        preset:
+            field: email
+            type: slug
+        type: text
+    telefone:
+        label: Telefone
+        span: left
+        placeholder: 'Digite o seu numero de telefone'
+        required: 1
+        preset:
+            field: telefone
+            type: slug
+        type: number

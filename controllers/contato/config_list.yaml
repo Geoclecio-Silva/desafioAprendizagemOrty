@@ -1,0 +1,12 @@
+title: Contato
+modelClass: Geoclecio\Contato\Models\Contato
+list: $/geoclecio/contato/models/contato/columns.yaml
+recordUrl: 'geoclecio/contato/contato/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
